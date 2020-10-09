@@ -1,0 +1,41 @@
+.ks-employee-page {
+	margin-right: 20px;
+}
+
+.ks-employee-page .ks-logo {
+	float: left;
+}
+.ks-employee-page .dashicons {
+	width: auto;
+	height: auto;
+	font-size: 50px;
+}
+
+.ks-employee-page .ks-title {
+	float:left;
+}
+.ks-employee-page .ks-title h2 {
+	display: inline-block;
+	margin:0 10px;
+	font-size:40px; 
+	line-height: 45px;
+}
+.ks-employee-page .ks-title .button {
+	margin: 10px 0;
+}
+
+.ks-employee-page .clearfix {
+	overflow: hidden;
+	clear: both;
+}
+
+.ks-employee-page .ks-error {
+	color: red;
+	font-weight: 12px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.ks-employee-page .ks-employee-wrapper {
+	padding-top:20px;
+}

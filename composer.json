@@ -1,0 +1,5 @@
+{ 
+    "autoload": {
+    		"classmap": ["inc/classes/", "inc/views/", "inc/helpers/"]
+    }
+}
