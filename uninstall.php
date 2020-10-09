@@ -4,8 +4,6 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) { // If uninstall not called from Word
 	exit();
 }
 
-use KsDataRetrieve\Helper\KsDataRetrieveHelper;
-
 /**
  * Manages KS Data Retrieve from Endpoint uninstallation
  * The goal is to remove data in cache
@@ -26,8 +24,8 @@ class KsData_Uninstaller {
 	 *
 	 */
 	function uninstall() {
-		// clear data
-		KsDataRetrieveHelper::clear_employee_data();
+		delete_option( 'ks_employees' );
+		delete_option( 'ks_request_time' );
 	}
-}		
+}
 new KsData_Uninstaller();
